@@ -1,11 +1,10 @@
+print("Zadanie lista zakupo")
+
 store = {"biedronka":"chleb"}
 
 for key,values in store.items():
     print("ide do " +key.capitalize()+ " i kupuje " + values.capitalize())
 print("\n")
-"""problem jest gdy w slowniku do klucza podajemy wiele wartosci
-jak zrobic piersza dużą litere dla krotki lub listy w słowniku??
-"""
 
 sotre1 = {"biedronka":["chleb","bulki","przyprawy"], 'lidl': ['skarpety', 'playstation5']}
 
