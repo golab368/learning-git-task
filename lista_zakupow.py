@@ -1,7 +1,7 @@
 print("Zadanie lista zakupo")
-
+print("Pozdrowienia dla mentora")
 store = {"biedronka":"chleb"}
-
+print("Pozdrowienia dla mentora")
 for key,values in store.items():
     print("ide do " +key.capitalize()+ " i kupuje " + values.capitalize())
 print("\n")
@@ -16,10 +16,11 @@ for store_name, products in sotre1.items():
     #     capitalized_products.append(product.capitalize())
     capitalized_products = [asd.capitalize() for asd in products]
     i_want_to_buy = ', '.join(capitalized_products)
-    
+
     #sum_of_products = sum_of_products + len(products)
     sum_of_products += len(products)
 
     print("Idę do "+im_going_to+ " Kupić "+i_want_to_buy )  
-
+print("Pozdrowienia dla mentora")
 print(f"Moja lista zakupów składa się z {sum_of_products} rzeczy" )
+print("Pozdrowienia dla mentora")
