@@ -9,7 +9,7 @@ jak zrobic piersza dużą litere dla krotki lub listy w słowniku??
 
 sotre1 = {"biedronka":["chleb","bulki","przyprawy"], 'lidl': ['skarpety', 'playstation5']}
 
-sum_of_products = 0git
+sum_of_products = 0
 for store_name, products in sotre1.items():
     im_going_to = store_name.capitalize()
     # capitalized_products = []
